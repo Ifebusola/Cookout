@@ -6,7 +6,6 @@ body {
 .parallax-window {
     min-height: 500px;
     background: transparent;
-    height: 80vh;
 }
 h1 {
     text-align: center;
