@@ -1,0 +1,46 @@
+body {
+    font-family: 'Annie Use Your Telescope', Open Sans,sans-serif;
+    font-weight: 200;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+    height: 80vh;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+.page-two {
+    background-color: #cc2a36;
+    color: #fff;
+    
+}
+.element{
+    text-align: center;
+    padding-top:30px;
+	color: #fff;
+	font-size: 24px;
+    opacity: 5;
+    height: 100px;
+}
+#head {
+    font-size: 40px;
+    font-weight: 400;
+}
+.footer {
+    display: block;
+    background-color:   #eb6841;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+}
+#pad-top{
+    padding-top: 7px;
+}
+.container {
+    align-content: center;
+}

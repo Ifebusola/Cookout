@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+    
+        <title>Cookout</title>
+        
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Indie+Flower|Loved+by+the+King|Schoolbell" rel="stylesheet">
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="img/background.png">
+            `<div class="container">
+                <h1 id="head">BYOF<br>cookout</h1>
+                <div class="element"></div>
+            </div>
+        </div>
+            
+        <div class="page-two">
+            <div class="container">
+                <div class="text-center">
+                    <h3>You're invited to the "BYOF Cookout" happening 2pm on Sunday, the 18th of December, 2016. Dress very fucking casual; tank tops, shorts, whatever you'd feel comfortable in.</h3>
+                    <h3>We have a bunch of games (and are open to suggestions), grilled chicken and a special kind of cookies. Note that you have to bring some sort of food.</h3>
+                </div>
+                <div class="text-center">
+                    <h2>2pm, 18th of December, 2016 <br> <a target="_blank" href="http://www.google.com/calendar/event?action=TEMPLATE&text=BYOF+Cookout&dates=20161218/20161218&details=You%27re%20invited%20to%20the%20%22BYOF%20cookout%22%20happening%202pm%20on%20Sunday%2C%20the%2018th%20of%20December%2C%202016.%20Dress%20very%20fucking%20casual%3B%20tank%20tops%2C%20shorts.%20It%27s%20so%20bloody%20hot%20out.&location=B5%2C%20FAAN%20Staff%20Quarters%2C%20Ikeja%20Lagos.%20Opposite%20MMA2">Save the date</a></h2> <h2>B5, FAAN Staff Quarters, Ikeja Lagos. Opposite MMA2 <br> <a target="_blank" href="https://goo.gl/maps/yR57evgQyrk">Get Directions</a></h2>
+                    <h2 id="no-deco">Busola: <a href="tel:08086334859">08086334859</a> <br> Niran: <a href="08080964698">08080964698</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center">
+            <div class="container">
+                <p id="pad-top">@cookout.xyz <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i></p>
+            </div>
+            
+        </div>
+        
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/ScrollMagic.min.js"></script>
+        <script>
+        $(function(){
+            $(".element").typed({
+            strings: ["Hey there!", "Lol, this is the Bring Your Own Food Cookout", "By The Cookie Squad."],
+            typeSpeed: 60
+            });
+        });
+        $('.parallax-window').parallax({
+            imageSrc: 'img/background.png'
+        });
+        </script>
+
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+    </body>
+
+</html>
