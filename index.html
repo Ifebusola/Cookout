@@ -1,11 +1,29 @@
+<!--
+  # Ire's Comments
+
+    Overall I think its a pretty cool design and quite well executed. Here are some issues you might want to fix -
+
+   ## Markup
+    - In some places you are using IDs wrongly. An ID should be unique to an element. So something like "pad-top" should be a class, not an ID
+    - You jump from h1 to h3, The headings should be in a particular order, not for visual purposes
+    - In general, you're using heading elements where you should be using paragraphs.
+    - You could make use of semantic HTML elements. E.g. instead of <div class="footer">, you could just use <footer>. Same with <header> or <main>
+    - The instagram and twitter icons are hidden fron screen readers, but there is no text replacement for them. Plus is there supposed to be a link to the profile pages there?
+
+  ## Design
+    - The colour of the links doesn't contrast well with the red background. Consider using a different colour for links
+
+  ## Other Stuff
+    - The save the date link creates a calendar event with incorrect end date
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf8">
         <meta name="viewport" content="initial-scale=1, width=device-width">
-    
+
         <title>Cookout</title>
-        
+
         <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Indie+Flower|Loved+by+the+King|Schoolbell" rel="stylesheet">
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -16,12 +34,12 @@
     <body>
         <div class="wrapper">
             <div class="parallax-window" data-parallax="scroll" data-image-src="img/background.png">
-            `<div class="container">
+            <div class="container">
                 <h1 id="head">BYOF<br>cookout</h1>
                 <div class="element"></div>
             </div>
         </div>
-            
+
         <div class="page-two">
             <div class="container">
                 <div class="text-center">
@@ -30,7 +48,7 @@
                 </div>
                 <div class="text-center">
                     <h2>2pm, 18th of December, 2016 <br> <a target="_blank" href="http://www.google.com/calendar/event?action=TEMPLATE&text=BYOF+Cookout&dates=20161218/20161218&details=You%27re%20invited%20to%20the%20%22BYOF%20cookout%22%20happening%202pm%20on%20Sunday%2C%20the%2018th%20of%20December%2C%202016.%20Dress%20very%20fucking%20casual%3B%20tank%20tops%2C%20shorts.%20It%27s%20so%20bloody%20hot%20out.&location=B5%2C%20FAAN%20Staff%20Quarters%2C%20Ikeja%20Lagos.%20Opposite%20MMA2">Save the date</a></h2> <h2>B5, FAAN Staff Quarters, Ikeja Lagos. Opposite MMA2 <br> <a target="_blank" href="https://goo.gl/maps/yR57evgQyrk">Get Directions</a></h2>
-                    <h2 id="no-deco">Busola: <a href="tel:08086334859">08086334859</a> <br> Niran: <a href="08080964698">08080964698</a></h2>
+                    <h2 id="no-deco">Busola: <a href="tel:08086334859">08086334859</a> <br> Niran: <a href="tel:08080964698">08080964698</a></h2>
                 </div>
             </div>
         </div>
@@ -38,9 +56,9 @@
             <div class="container">
                 <p id="pad-top">@cookout.xyz <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i></p>
             </div>
-            
+
         </div>
-        
+
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/typed.js"></script>
@@ -58,7 +76,7 @@
         </script>
 
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    
+
     </body>
 
 </html>
