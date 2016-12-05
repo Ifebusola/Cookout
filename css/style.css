@@ -25,7 +25,7 @@ h1 {
     opacity: 5;
     height: 100px;
 }
-#head { /* This should be a class instead */
+.head { /* This should be a class instead */
     font-size: 40px;
     font-weight: 400;
 }
@@ -37,9 +37,6 @@ h1 {
     font-weight: 100;
     color: #fff;
 }
-#pad-top { /* This should be a class instead */
+.pad-top { /* This should be a class instead */
     padding-top: 7px;
-}
-.container {
-    align-content: center; /* This is a flexbox property, but .container doesn't have the flex property */
 }
