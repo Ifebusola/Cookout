@@ -15,7 +15,7 @@ h1 {
 .page-two {
     background-color: #cc2a36;
     color: #fff;
-    
+
 }
 .element{
     text-align: center;
@@ -25,7 +25,7 @@ h1 {
     opacity: 5;
     height: 100px;
 }
-#head {
+#head { /* This should be a class instead */
     font-size: 40px;
     font-weight: 400;
 }
@@ -37,9 +37,9 @@ h1 {
     font-weight: 100;
     color: #fff;
 }
-#pad-top{
+#pad-top { /* This should be a class instead */
     padding-top: 7px;
 }
 .container {
-    align-content: center;
+    align-content: center; /* This is a flexbox property, but .container doesn't have the flex property */
 }
